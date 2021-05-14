@@ -1,0 +1,142 @@
+@import "footer.css";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+}
+ 
+#main {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
+  z-index: 1;
+}
+
+.logo img {
+  height: 75px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li a {
+  height: 40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 40px;
+  display: flex;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.menu .active {
+  color: blue;
+}
+
+.image {
+  width: 800px;
+  height: 700px;
+}
+
+.image img {
+  width: 105%;
+  height: 105%;
+  object-fit: contain;
+}
+
+.content {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.main-text {
+  width: 500px;
+}
+
+.main-text h1 {
+  font-size: 3.4em;
+  color: rgba(0, 8, 178, 0.8);
+  margin: 0px 0px 10px 0px;
+  line-height: 60px;
+}
+
+.main-text p {
+  color: rgba(0, 46, 183, 0.6);
+  font-size: 18px;
+}
+
+
+
+.menu li a:hover {
+  background-color: #28bbffd8;
+  color: white;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+  transition: all ease 0.2s;
+}
+
+a 
+{
+  text-decoration: none;
+}
+
+.btn 
+{
+  width: 190px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #1ea1f8dc;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+  font-size: 18px;
+}
+
+.btn:hover 
+{
+  background-color: #28bbffd8;
+  transition: all ease 0.2s;
+}
+
+@media screen and (max-width: 481px;)
+{
+  div.table {
+    width: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0px;
+    margin: 0px;
+  }
+  table {
+    padding: 0px;
+    margin: 0px;
+  }
+}
